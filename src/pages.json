@@ -1,16 +1,191 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+			"path": "pages/index23/index", //自定义组件的使用
+			"style": {
+				"navigationBarTitleText": "自定义组件的使用"
+			}
+		},
+		{
+			"path": "pages/index22/index", //uniapp中使用vue二
+			"style": {
+				"navigationBarTitleText": "uniapp中使用vue二"
+			}
+		},
+		{
+			"path": "pages/index21/index", //uniapp中使用vue一
+			"style": {
+				"navigationBarTitleText": "uniapp中使用vue一"
+			}
+		},
+		{
+			"path": "pages/index20/index", //使用icon图标
+			"style": {
+				"navigationBarTitleText": "使用icon图标"
+			}
+		},
+		{
+			"path": "pages/index19/index", //分享接口
+			"style": {
+				"navigationBarTitleText": "分享接口"
+			}
+		},
+		{
+			"path": "pages/index18/index", //第三方登录
+			"style": {
+				"navigationBarTitleText": "第三方登录"
+			}
+		},
+		{
+			"path": "pages/index18/login/index", //登录页面
+			"style": {
+				"navigationBarTitleText": "登录页面"
+			}
+		},
+		{
+			"path": "pages/index17/index", //交互反馈
+
+			"style": {
+				"navigationBarTitleText": "交互反馈"
+			}
+		},
+		{
+			"path": "pages/index16/index", //跨段兼容
+
+			"style": {
+				"navigationBarTitleText": "跨段兼容"
+			}
+		},
+		{
+			"path": "pages/index15/index", //上拉刷新
+
+			"style": {
+				"navigationBarTitleText": "上拉刷新",
+				"enablePullDownRefresh": true //开启上来下拉刷新
+			}
+		},
+		{
+			"path": "pages/index14/index", //下拉刷新
+
+			"style": {
+				"navigationBarTitleText": "下拉刷新",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index13/index", //导航设置
+
+			"style": {
+				"navigationBarTitleText": "导航设置"
+			}
+		},
+		{
+			"path": "pages/index12/index", //设备相关
+			"style": {
+				"navigationBarTitleText": "设备相关"
+			}
+		},
+		{
+			"path": "pages/index11/index", //数据缓存
+			"style": {
+				"navigationBarTitleText": "数据缓存"
+			}
+		},
+		{
+			"path": "pages/index10/index", //文件上传和下载
+			"style": {
+				"navigationBarTitleText": "文件上传和下载"
+			}
+		},
+		{
+			"path": "pages/index9/index", //照片选择和预览
+			"style": {
+				"navigationBarTitleText": "照片选择和预览"
+			}
+		},
+		{
+			"path": "pages/index8/index", //网络请求
+			"style": {
+				"navigationBarTitleText": "网络请求"
+			}
+		},
+		{
+			"path": "pages/index7/index", //多媒体组件
+			"style": {
+				"navigationBarTitleText": "多媒体组件"
+			}
+		},
+		{
+			"path": "pages/index6/index", //导航和页面传参
+			"style": {
+				"navigationBarTitleText": "导航和页面传参"
+			}
+		},
+		{
+			"path": "pages/index5/index", //表单组件
+			"style": {
+				"navigationBarTitleText": "表单组件"
+			}
+		},
+		{
+			"path": "pages/index4/index", //uniapp中的基础组件
+			"style": {
+				"navigationBarTitleText": "uniapp中的基础组件"
+			}
+		},
+		{
+			"path": "pages/index3/index", //事件和事件绑定
+			"style": {
+				"navigationBarTitleText": "事件和事件绑定"
+			}
+		},
+		{
+			"path": "pages/cssandstyle/index", //css和style
+			"style": {
+				"navigationBarTitleText": "css和style"
+			}
+		},
+		{
+			"path": "pages/index2/index", //模板语法及数据绑定
+			"style": {
+				"navigationBarTitleText": "模板语法及数据绑定"
+			}
+		},
+		{
+			"path": "pages/about/index", //生命周期
+			"style": {
+				"navigationBarTitleText": "生命周期"
+			}
+		},
+		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "uni-app学习"
 			}
 		}
 	],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarTextStyle": "write",
+		"navigationBarTitleText": "uniapp学习",
+		"navigationBarBackgroundColor": "#000",
+		"backgroundColor": "#F00"
+	},
+	"tabBar": { //导航
+		"color": "#000",
+		"selectedColor": "#0faeff", //选中什么颜色
+		"list": [{
+				"pagePath": "pages/about/index",
+				"iconPath": "static/jpg/dd.png",
+				"selectedIconPath": "static/jpg/ddr.png",
+				"text": "关于"
+			},
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/jpg/sy.png",
+				"selectedIconPath": "static/jpg/syr.png",
+				"text": "首页"
+			}
+		]
 	}
+
 }
